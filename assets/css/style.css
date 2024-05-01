@@ -44,6 +44,10 @@ ul {
     color: #eee;
 }
 
+.text-main {
+    color: var(--main-color);
+}
+
 /* *Navbar Styles */
 .navbar-nav .nav-link.active {
     color: var(--main-color);
@@ -65,3 +69,5 @@ abbr[title] {
   header .container {
     margin-top: 56px;
   }
+
+  /* *About Section Styles */
