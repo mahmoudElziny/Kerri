@@ -16,13 +16,15 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- ^Main Style Sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ^Media Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
-<body>
-<!-- *Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container w-75">
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!-- *Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container w-lg-75">
             <h1 class="h3 fw-semibold m-0">
-                <a class="" href="#">Kerri</a>
+                <a href="#home">Kerri</a>
             </h1>         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,17 +56,35 @@
           
           </div>
         </div>
-      </nav>
+  </nav>
 
-<!-- *Home Section -->
-<header id="home" class="min-vh-100 d-flex justify-content-center align-items-center">
+  <!-- *Home Section -->
+  <header id="home" class="home min-vh-100 d-flex justify-content-center align-items-center">
     <div class="container text-center text-white">
         <span class="d-block fs-3">Welcome</span>
         <h2 class="display-4 fw-medium">I'M A Photographer.</h2>
         <p class="max-w-500 mx-auto text-gray">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
         <a href="assets/files/Mahmoud Elzeny CV.pdf" class="btn btn-download text-uppercase">Download <abbr title="curriculum vitae">CV</abbr></a>
     </div>
-</header>
+  </header>
+
+  <!-- *About Section -->
+  <section id="about" class="about mt-5">
+    <div class="container w-lg-75 py-5">
+        <div class="row">
+            <div class="col-lg-6 border border-1 p-1 rounded-1">
+                <img class="w-100" src="assets/images/about.jpg" alt="a man wearing yellow shirt and red hat.">
+            </div>
+            <div class="col-lg-6 ps-lg-5 pt-4 pt-lg-0">
+                <h2><span class="fw-semibold">About</span> Me</h2>
+                <h3 class="mt-4">Hello! <span class="text-main fw-semibold">I'M Kerri Deo.</span></h3>
+                <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p class="text-muted mt-3">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p class="text-muted mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+        </div>
+    </div>
+  </section>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
