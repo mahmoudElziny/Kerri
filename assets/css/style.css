@@ -3,6 +3,10 @@
   --main-color: #e65f78;
 }
 
+html {
+    scroll-padding-top: 56px ;
+}
+
 body{
     font-family: "Nunito", sans-serif;
 }
@@ -40,6 +44,10 @@ ul {
     max-width: 500px;
 }
 
+.max-w-700 {
+    max-width: 700px;
+}
+
 .text-gray {
     color: #eee;
 }
@@ -75,6 +83,19 @@ abbr[title] {
   }
 
   /* *About Section Styles */
+
+  /* *Client Section Styles */
+  .carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    height: 6px;
+    width: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .carousel-indicators .active {
+    width: 30px;
+  }
 
   /* *Portfolio Section Styles */
 
