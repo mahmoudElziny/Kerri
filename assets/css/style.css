@@ -35,6 +35,21 @@ ul {
     border-radius: 50px;
 }
 
+.btn-contact-form {
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-padding-y: .75rem;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #e65f78;
+    --bs-btn-border-color: #e65f78;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d54660;
+    --bs-btn-hover-border-color: #d54660;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 0.25rem;
+
+  }
+
 .w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -153,3 +168,15 @@ abbr[title] {
     top: 0;
 }
 
+
+/* *Contact Section Styles */
+
+.contact .form-control:focus {
+    border-color: var(--main-color);
+    box-shadow: none;
+}
+
+.contact textarea {
+    max-height: 300px;
+    min-height: 150px;
+}
