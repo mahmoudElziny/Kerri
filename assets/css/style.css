@@ -204,3 +204,34 @@ abbr[title] {
     max-height: 300px;
     min-height: 150px;
 }
+
+/* *Footer Section Styles */
+.footer {
+    background-color: #212121;
+}
+.footer .footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer .container .footer-icons .icon {
+    border-radius: 50%;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.75s;
+}
+
+.footer .container .footer-icons .icon:hover i{
+    color: var(--main-color);
+}
+
+.light-gray {
+    color: #ababab;
+}
+
+.light-black {
+    background-color: #313131;
+}
