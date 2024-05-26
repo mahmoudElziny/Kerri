@@ -99,6 +99,29 @@ abbr[title] {
 
   /* *About Section Styles */
 
+  /* *Services Section Styles */
+  .services .container i{
+    font-size: 45px;
+  }
+  
+  .services .container .services-item h4 {
+    position: relative;
+  }
+  .services .container .services-item h4::after {
+      content: "";
+      position: absolute;
+      bottom: -25%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      height: 2px;
+      width: 50px;
+      background-color: var(--main-color);
+      transition: all 1s;
+  }
+  .services .container .services-item:hover h4::after {
+          width: 70px;
+  }
+
   /* *Client Section Styles */
   .carousel-indicators [data-bs-target] {
     background-color: var(--main-color);
