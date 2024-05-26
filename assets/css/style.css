@@ -5,6 +5,7 @@
 
 html {
     scroll-padding-top: 56px ;
+    box-sizing: border-box;
 }
 
 body{
@@ -98,7 +99,20 @@ abbr[title] {
   }
 
   /* *About Section Styles */
-
+  .about-icons i { 
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+    border: 2px solid #E0E4E8;
+    transition:  all 0.65s;
+  }
+  
+  .about-icons i:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+  }
   /* *Services Section Styles */
   .services .container i{
     font-size: 45px;
